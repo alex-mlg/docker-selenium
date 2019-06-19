@@ -11,7 +11,7 @@ class HackerNewsSearchTest(unittest.TestCase):
     def setUp(self):
     	caps = {'browserName': os.getenv('BROWSER', 'chrome')}
     	self.browser = webdriver.Remote(
-        	command_executor='http://localhost:4444/wd/hub',
+        	command_executor='http://172.40.0.20:4444/wd/hub',
         	desired_capabilities=caps
     	)
 
