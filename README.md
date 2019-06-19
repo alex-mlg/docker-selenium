@@ -1,5 +1,5 @@
 # docker-selenium
-Docker Compose script for Selenium Grid
+Docker-Selenium test scripts & examples
 
 Tested Selenium Hub - 5/28/19
 
